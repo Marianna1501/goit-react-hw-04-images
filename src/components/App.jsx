@@ -49,7 +49,7 @@ export default function App() {
   }, [query, getImage, page]);
 
   const onLoadMoreClick = () => {
-    setPage(prevState => prevState.page + 1);
+    setPage(page + 1);
   };
 
   const handlerFormSubmit = query => {
