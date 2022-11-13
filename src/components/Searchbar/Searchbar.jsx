@@ -27,7 +27,7 @@ export default function SearchBar({ onSubmit }) {
       <header>
         <SearchForm onSubmit={handleSubmit}>
           <Button type="submit">
-            <HiSearch></HiSearch>
+            <HiSearch size="20"></HiSearch>
           </Button>
 
           <Input

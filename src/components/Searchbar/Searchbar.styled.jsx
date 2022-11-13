@@ -43,12 +43,12 @@ export const Button = styled.button`
     opacity: 1;
   }
 `;
-export const HiSearch = styled.svg`
-  stroke: currentcolor;
-  fill: currentcolor;
-  height: 2em;
-  width: 2em;
-`;
+// export const HiSearch = styled.svg`
+//   stroke: currentcolor;
+//   fill: currentcolor;
+//   height: 2em;
+//   width: 2em;
+// `;
 
 export const Input = styled.input`
   display: inline-block;
