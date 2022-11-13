@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Sidebar, SearchForm, Button, Input } from './Searchbar.styled';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { HiSearch } from 'react-icons/hi';
 
 export default function SearchBar({ onSubmit }) {
   const [query, setQuery] = useState('');
@@ -26,7 +27,7 @@ export default function SearchBar({ onSubmit }) {
       <header>
         <SearchForm onSubmit={handleSubmit}>
           <Button type="submit">
-            <span></span>
+            <HiSearch></HiSearch>
           </Button>
 
           <Input
